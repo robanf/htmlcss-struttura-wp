@@ -11,7 +11,7 @@ header{
 }
 footer{
     background-color: purple;
-    height: 60px;
+    height: 50px;
     margin: 0px 10%;
 }
 
@@ -36,25 +36,30 @@ footer{
 }
 
 .box{
-    
-    border: 3px solid blue;
-    display: inline-block;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+      display: inline-block;
 }
 
 .sinistra{
     float: left;
-    width: 10%;
-    height: 99%;
+    width: 20%;
+    height: 95%;
+    
 }
 
 .destra{
-    float: right;
-    width: 10%;
-    height: 99%;
+    float: left;
+    width: 20%;
+    height: 95%;
+    
 }
 
 .centrale{
     float: left;
-    width: 10%;
-    height: 99%;
+    border-left:6px solid blue;
+    border-right:6px solid blue;
+    width: 59%;
+    height: 95%;
+    
 }
