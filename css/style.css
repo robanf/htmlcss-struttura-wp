@@ -5,5 +5,56 @@
 }
 
 header{
-    color: violet;
+    background-color: violet;
+    height: 70px;
+    margin: 10px 10%;
+}
+footer{
+    background-color: purple;
+    height: 60px;
+    margin: 0px 10%;
+}
+
+.container-1{
+    background-color: rgb(221, 172, 81);
+    height: 280px;
+    margin: 0px 10%;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    height: 300px;
+    margin: 10px 10%;
+    padding-top: 7%;
+}
+
+.container-2::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.box{
+    
+    border: 3px solid blue;
+    display: inline-block;
+}
+
+.sinistra{
+    float: left;
+    width: 10%;
+    height: 99%;
+}
+
+.destra{
+    float: right;
+    width: 10%;
+    height: 99%;
+}
+
+.centrale{
+    float: left;
+    width: 10%;
+    height: 99%;
 }
